@@ -1,72 +1,76 @@
-/* RESET */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+body {
+    max-width: 850px;
+    margin: auto;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* BODY */
-
-body{
-    font-family:"Liberation Mono","Courier New",monospace;
-    background:white;
-    color:black;
+header {
+    background: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
 }
 
-/* NAVBAR */
-
-.navbar{
-    background:black;
-    text-align:center;
-    padding:10px;
-    position:sticky;
-    top:0;
-    z-index:1000;
+header h1 {
+    margin: 0;
+    font-weight: bold;
 }
 
-.navbar a{
-    color:white;
-    text-decoration:none;
-    margin:0 12px;
-    font-size:14px;
+header p {
+    margin-top: 8px;
 }
 
-/* BANNER */
-
-.banner{
-    background:#0d47a1;
-    color:white;
-    text-align:center;
-    font-weight:bold;
-    font-size:50px;
-    padding:50px;
+nav {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: black;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
-/* SECTIONS */
-.content{
-    font-size:25px;
-    background:white;
-    max-width:850px;
-    margin:0 auto;
-}
-section{
-    padding:20px;
-}
-/* IMAGES */
-
-img{
-    max-width:100%;
-    height:auto;
-    display:block;
-    margin:10px 0;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-/* FOOTER */
+article {
+    margin-bottom: 50px;
+}
 
-footer{
-    color:white;
-    text-align:center;
-    background:#0d47a1;
-    padding:20px;
+.date {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section h3 {
+    display: inline-block;
+    background: #1565c0;
+    color: white;
+    padding: 5px 12px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+footer {
+    margin-top: 60px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 20px;
 }

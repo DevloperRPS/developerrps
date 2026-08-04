@@ -1,0 +1,72 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    font-family:"Liberation Mono","Courier New",monospace;
+    background:white;
+    color:black;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:black;
+    text-align:center;
+    padding:10px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-size:14px;
+}
+
+/* BANNER */
+
+.banner{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+    padding:50px;
+}
+
+/* SECTIONS */
+.content{
+    font-size:25px;
+    background:white;
+    max-width:850px;
+    margin:0 auto;
+}
+section{
+    padding:20px;
+}
+/* IMAGES */
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:10px 0;
+}
+
+/* FOOTER */
+
+footer{
+    color:white;
+    text-align:center;
+    background:#0d47a1;
+    padding:20px;
+}

@@ -6,6 +6,6 @@ This is my personal blogging website, created to showcase my **[My Work Portfoli
 
 This project is built to maintain and showcase my writing work while providing a professional online presence for my content writing portfolio.
 
-It can also serve as a growing archive where new articles, projects, and writing samples can be added over time.It keeps getting updated my me over time.
+It can also serve as a growing archive where new articles, projects, and writing samples can be added over time. It keeps getting updated my me over time.
 
 **Thank you for visiting my project and taking the time to explore my work.**
